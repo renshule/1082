@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <default-config>
+        <property name="user">root</property>
+        <property name="password">root</property>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3308/1082_hplus?characterEncoding=utf-8</property>
+    </default-config> <!-- This app is massive! -->
+    <!--连接池中保留的最大连接数。Default: 15 -->
+    <property name="maxPoolSize">20</property>
+</c3p0-config>
